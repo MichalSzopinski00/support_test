@@ -1,10 +1,13 @@
 # Databricks notebook source
 # MAGIC %md
 # MAGIC # Repro for Milan
-# MAGIC
+# MAGIC 
 # MAGIC sdsadssdasdadsadsads
+# MAGIC 
+# MAGIC klkl
 
 # COMMAND ----------
+
 
 
 # COMMAND ----------
@@ -19,7 +22,7 @@ import azure.cognitiveservices.speech as speechsdk
 
 # MAGIC %md
 # MAGIC # Speech to text
-# MAGIC
+# MAGIC 
 # MAGIC Just a little testing of Magic commands
 
 # COMMAND ----------
@@ -71,7 +74,7 @@ recognize_from_microphone()
 
 # MAGIC %md
 # MAGIC #end of repro for Milan
-# MAGIC
+# MAGIC 
 # MAGIC and a little more :)
 
 # COMMAND ----------
@@ -110,6 +113,7 @@ elif speech_synthesis_result.reason == speechsdk.ResultReason.Canceled:
         if cancellation_details.error_details:
             print("Error details: {}".format(cancellation_details.error_details))
             print("Did you set the speech resource key and region values?")
+
 # COMMAND ----------
 
 # MAGIC %md
@@ -214,4 +218,3 @@ try:
     conn.close()
 except Exception as e:
     print("[Errno {0}] {1}".format(e.errno, e.strerror))
-# COMMAND ----------
