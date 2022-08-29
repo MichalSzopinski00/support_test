@@ -19,6 +19,8 @@ import azure.cognitiveservices.speech as speechsdk
 
 # MAGIC %md
 # MAGIC # Speech to text
+# MAGIC
+# MAGIC Just a little testing of Magic commands
 
 # COMMAND ----------
 
@@ -69,6 +71,8 @@ recognize_from_microphone()
 
 # MAGIC %md
 # MAGIC #end of repro for Milan
+# MAGIC
+# MAGIC and a little more :)
 
 # COMMAND ----------
 
