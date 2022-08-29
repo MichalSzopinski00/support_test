@@ -1,14 +1,14 @@
 # Databricks notebook source
 # MAGIC %md
 # MAGIC # Repro for Milan
-# MAGIC
+# MAGIC 
 # MAGIC sdsadssdasdadsadsads
 # MAGIC 
 # MAGIC klkl
 
 # COMMAND ----------
 
-
+# MAGIC %md dsdsdsdsdsadasdasdasdasdasdasdas
 
 # COMMAND ----------
 
@@ -22,7 +22,7 @@ import azure.cognitiveservices.speech as speechsdk
 
 # MAGIC %md
 # MAGIC # Speech to text
-# MAGIC
+# MAGIC 
 # MAGIC Just a little testing of Magic commands
 
 # COMMAND ----------
@@ -74,7 +74,7 @@ recognize_from_microphone()
 
 # MAGIC %md
 # MAGIC #end of repro for Milan
-# MAGIC
+# MAGIC 
 # MAGIC and a little more :)
 
 # COMMAND ----------
